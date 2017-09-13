@@ -10,7 +10,7 @@ Move *sim_vehicle_mod.py* and *sim_vehicle_multiple.py* to your ardupilot sim_ve
 *Example: /vagrant/ardupilot/Tools/autotest/*
 
 # How to use?
-run command: *python sim_vehicle_multiple.py
+run command: *python sim_vehicle_multiple.py*
 
 Parameters:
 
