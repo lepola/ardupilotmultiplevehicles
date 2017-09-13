@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 """
-Framework to start a simulated multiple vehicles.
+Python script to start a simulated multiple vehicles.
 
-Panu Haaraniemi, August 2017
+Created by lepola, September 2017
 """
 import os
 import subprocess

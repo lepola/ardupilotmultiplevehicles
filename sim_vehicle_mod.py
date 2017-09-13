@@ -5,6 +5,8 @@ Framework to start a simulated vehicle and connect it to MAVProxy.
 
 Peter Barker, April 2016
 based on sim_vehicle.sh by Andrew Tridgell, October 2011
+
+Modified, September 2017 for multiple vehicles.
 """
 from __future__ import print_function
 
