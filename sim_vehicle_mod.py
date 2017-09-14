@@ -661,7 +661,7 @@ def start_mavproxy(opts, stuff):
             cmd.extend(["--sitl", simout_port])
 
     # If running inside of a vagrant guest, then we probably want to forward our mavlink out to the containing host OS
-    ports = [p + cmd_opts.instance for p in [14551]]
+    ports = [p + cmd_opts.instance for p in [14550]]
     for port in ports:
         if os.path.isfile("/ardupilot.vagrant"):
             cmd.extend(["--out", "10.0.2.2:" + str(port)])
